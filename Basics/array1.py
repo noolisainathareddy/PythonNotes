@@ -17,13 +17,24 @@ import array
 #     print(val[index])
 #     index +=1
 
-val = array.array('i', [])
+# val = array.array('i', [])
+#
+# num = int(input("Enter the length of the array"))
+#
+# i=0
+# for i in range(num):
+#     val.append(int(input("Enter you number")))
+#     i =+ 1;
+#
+# print(val)
 
-num = int(input("Enter the length of the array"))
 
-i=0
-for i in range(num):
-    val.append(int(input("Enter you number")))
-    i =+ 1;
+val = array.array('i',[10,20,30,40,50,60,70,80])
+#
+# for a in val:
+#     print(a)
 
-print(val)
+x =0
+while x < len(val):
+    print(val[x])
+    x = x +1
