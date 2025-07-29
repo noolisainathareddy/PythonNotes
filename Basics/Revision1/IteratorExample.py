@@ -1,12 +1,17 @@
-name = "sainathareddy"
+from operator import index
 
+line = "this is sai"
 
-it = iter(name)
+line = line.split(" ")
 
-print(it.__next__())
-print(it.__delattr__('sai'))
+print(line)
 
-print(name)
+print()
+
+line = "-".join(line)
+
+print(index(line))
+print(line)
 
 
 
