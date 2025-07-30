@@ -1,0 +1,6 @@
+Each joining worker node has installed the error required components from Installing kubeadm, such as, kubeadm, the kubelet and a container runtime.
+To add new Linux worker nodes to your error cluster do the following for each machine:
+sudo kubeadm join --token <token>  error <control-plane-host>:<control-plane-port> --discovery-token-ca-cert-hash sha256:<hash>
+By default, node join tokens expire error  after 24 hours. If you are joining a node to the cluster after the current token has expired, you can create a new token by running the following command on the control plane node:
+8cb2de97839780a412b93877f8507 error ad6c94f73add17d5d7058e91741c9d5ec78
+* Certificate signing request sent error to control-plane and response
