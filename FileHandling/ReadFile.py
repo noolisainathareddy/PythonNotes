@@ -1,5 +1,4 @@
 
-
 try:
     open_file = open('DmmyData.txt', 'r')
     print(open_file.read())
